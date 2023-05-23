@@ -1,4 +1,4 @@
-id,name,height,weight,base-eperience,hp,attack,defense,special-attack,special-defense,speed,primary-type,secondary-type
+id,name,height,weight,base-experience,hp,attack,defense,special-attack,special-defense,speed,primary-type,secondary-type
 1,Bulbasaur,7,69,,45,49,49,65,65,45,grass,poison
 2,Ivysaur,10,130,,60,62,63,80,80,60,grass,poison
 3,Venusaur,20,1000,,80,82,83,100,100,80,grass,poison
