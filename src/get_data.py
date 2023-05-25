@@ -14,8 +14,6 @@ def get_info(id):
     
     weight = pokemon.weight
     
-    base_exp = pokemon.base_experience
-    
     stats = pokemon.stats
     
     hp = stats[0].base_stat
@@ -47,7 +45,6 @@ def get_info(id):
         "name": name,
         "height": height,
         "weight": weight,
-        "base-experience": base_exp,
         "hp": hp,
         "attack": atk,
         "defense": defense,
@@ -62,7 +59,7 @@ def get_info(id):
 
 def create_info_dataframe():
         
-    df = pd.DataFrame(columns=['id', 'name', 'height', 'weight', 'base-eperience', 'hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed', 'primary-type', 'secondary-type'])
+    df = pd.DataFrame(columns=['id', 'name', 'height', 'weight', 'hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed', 'primary-type', 'secondary-type'])
     
     for i in range(1010):
         df.loc[i] = get_info(i+1)
